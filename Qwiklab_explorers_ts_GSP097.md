@@ -4,7 +4,6 @@
 
 * ### Run the following Commands in CloudShell
 ```
-
 ZONE="$(gcloud compute instances list --project=$DEVSHELL_PROJECT_ID --format='value(ZONE)')"
 
 
